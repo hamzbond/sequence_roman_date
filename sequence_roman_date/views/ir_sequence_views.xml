@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_sequence_view_form_sequence_user_id" model="ir.ui.view">
+        <field name="name">ir.sequence.view.form.sequence.user.id</field>
+        <field name="model">ir.sequence</field>
+        <field name="inherit_id" ref="base.sequence_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page/group[last()]" position="after">
+                <group col="3" string="Additional Custom Legend (for prefix, suffix)">
+                    <group>
+                        <label colspan="2" string="Roman Month: %%(month_roman)s"/>
+                        <label colspan="2" string="Roman Year: %%(year_roman)s"/>
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
