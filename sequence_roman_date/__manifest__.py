@@ -21,7 +21,7 @@ Key Features:
     'author': 'hamzbond',
     'website': 'https://hamzbond.github.io',
     'license': 'LGPL-3',
-    'price': 1.99,
+    'price': 0.00,
     'currency': 'EUR',
     'images': ['static/description/banner.png'],
     'depends': ['base'],
