@@ -52,7 +52,6 @@ class RomanNumeralService(object):
 class IrSequence(models.Model):
     _inherit = 'ir.sequence'
 
-    @api.multi
     def _get_prefix_suffix(self):
         uses_custom_legend = any(
             '%(month_roman)s' in (rec.prefix or '') or '%(month_roman)s' in (rec.suffix or '') or
