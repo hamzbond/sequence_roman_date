@@ -1,6 +1,6 @@
 {
     'name': 'Sequence Roman Date',
-    'version': '11.0.1.0.0',
+    'version': '19.0.1.0.0',
     'category': 'Technical Settings',
     'summary': 'Add Roman Numeral Legend (Month & Year) to Sequences',
     'description': """
